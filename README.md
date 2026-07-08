@@ -5,8 +5,8 @@
 This repository contains all the code used for the single nuclei RNA sequencing (snRNA-seq) analysis of schizophrenia (SCZ) tissue and healthy control (CTRL) tissue samples, focusing on sex differences. 
 
 Three folders are available:
-- Seurat_R: R scripts based on Seurat pipeline
-- Scanpy_Python: Python code based on Scanpy pipeline
+- Seurat_R: R scripts based on Seurat pipeline. The pipeline stops at FindAllMarkers() due to unability to perform the function (Error:vector::reserve).
+- Scanpy_Python: Python code based on Scanpy pipeline, including benchmarking of integration methods.
 - Results: Processed output files and statistical reports, including:
     - DGE_results_SCZ.zip: CSV files with different expressed genes
     - GSEA_results_SCZ.zip: contains GSEA prerank report and, for a number of significant pathways, associated figures per cell type and sex
