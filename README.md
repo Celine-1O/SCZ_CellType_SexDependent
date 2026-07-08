@@ -2,7 +2,18 @@
 -------------------------------------------------------------------------------------------
 ## Master's Thesis in Bioinformatics - Universitat de València
 ***************************************************************
-This repository contains all the code and resources used for the single nuclei RNA sequencing (snRNA-seq) analysis of schizophrenia (SCZ) tissue and healthy control (CTRL) tissue samples, focusing on sex differences and using the workflow of `Seurat`, from R, and `Scanpy`, from Python. 
+This repository contains all the code used for the single nuclei RNA sequencing (snRNA-seq) analysis of schizophrenia (SCZ) tissue and healthy control (CTRL) tissue samples, focusing on sex differences. 
+
+Three folders are available:
+- Seurat_R: R scripts based on Seurat pipeline
+- Scanpy_Python: Python code based on Scanpy pipeline
+- Results: Processed output files and statistical reports, including:
+    - DGE_results_SCZ.zip: CSV files with different expressed genes
+    - GSEA_results_SCZ.zip: contains GSEA prerank report and, for a number of significant pathways, associated figures per cell type and sex
+    - ORA_results_SCZ: contains contains ORA enrichment report and, for a number of significant pathways, associated figures per cell type and sex
+    - Dimorphic_genes.xlsx: Tabular compilation of dimorphic genes.
+    - Specifc_genes.xlsx: Tabular compilation of sex specific genes.
+    - Cell_type_Abundance.xlsx: Tabular data detailing cell-type proportions
 
 
 ____________________________________________________________________________________________
